@@ -1,0 +1,22 @@
+_junk
+node_modules
+build
+
+.DS_Store
+
+### Windows template
+# Windows image fale cashes
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle bin used on file shares
+$RECYCLE.BIN/
+
+# Windows installer files
+*.cab
+*.msi
+*.msm
+*.msp
