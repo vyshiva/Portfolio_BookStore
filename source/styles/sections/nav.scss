@@ -1,0 +1,33 @@
+.nav-main {
+  border-bottom: 1px solid rgba(91, 91, 91, 0.2); 
+}
+
+.nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-items: center;
+  
+  &__link {
+    padding: 0.625rem 0.75rem 0.625rem 1.25rem;
+    text-decoration: none;
+    font-family: $ff-nav;
+    font-size: 1.1875rem;
+    color: #5b5b5b;
+    transition: 0.1s;
+    border-bottom: 1px solid transparent;
+
+    &--active {
+      background-image: linear-gradient(to bottom, #92d774, #8cce6f, #86c56a, #80bc66, #7ab361);
+      color: #fff;
+      font-family: $ff-main;
+      border-bottom: 1px solid #73a15f;
+    }
+
+    &:hover {
+      background-image: linear-gradient(to bottom, #92d774, #8cce6f, #86c56a, #80bc66, #7ab361);
+      color: #fff;
+      border-bottom: 1px solid #73a15f;
+    }
+  }
+}

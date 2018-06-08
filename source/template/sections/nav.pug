@@ -1,0 +1,9 @@
+.nav-main
+  .container
+    nav.nav
+      - var items = ['Computers', 'Cooking', 'Education', 'Fiction', 'Health', 'Mathematics', 'Medical', 'Reference', 'Science']
+      each item in items
+        if item === 'Education'
+          a.nav__link.nav__link--active(href='#')= item
+        else 
+          a.nav__link(href="#")= item
