@@ -1,34 +1,43 @@
 @font-face {
-  font-family: "georgia-bold";
-  src: url("../fonts/georgia-bold.woff") format("woff"),
-  url("../fonts/georgia-bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "helvetica-neue-bold";
-  src: url("../fonts/helvetica-neue-bold.woff") format("woff"),
-  url("../fonts/helvetica-neue-bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "helvetica-neue-light";
-  src: url("../fonts/helvetica-neue-light.woff") format("woff"),
-  url("../fonts/helvetica-neue-light.woff2") format("woff2");
+  font-family: "segoe-wp";
+  src: url("../fonts/SegoeWP.woff") format("woff"),
+  url("../fonts/SegoeWP.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "helvetica-neue-regular";
-  src: url("../fonts/helvetica-neue-regular.woff") format("woff"),
-  url("../fonts/helvetica-neue-regular.woff2") format("woff2");
+  font-family: "segoe-wp-bold";
+  src: url("../fonts/SegoeWP-Bold.woff") format("woff"),
+  url("../fonts/SegoeWP-Bold.woff2") format("woff2");
   font-weight: bold;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "segoe-wp-light";
+  src: url("../fonts/segoeWP-Light.woff") format("woff"),
+  url("../fonts/segoeWP-Light.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoe-ui-symbol";
+  src: url("../fonts/SegoeUISymbol.woff") format("woff"),
+  url("../fonts/SegoeUISymbol.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "segoe-wp-n";
+  src: url("../fonts/SegoeWPN.woff") format("woff"),
+  url("../fonts/SegoeWPN.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+}
+
 @font-face {
   font-family: "fontawesome";
   src: url("../fonts/fontawesome.woff") format("woff"),

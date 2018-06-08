@@ -81,6 +81,7 @@ gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images'));
 gulp.task('watch', function() {
   gulp.watch('source/template/**/*.pug', gulp.series('templates:compile'));
   gulp.watch('source/styles/**/*.scss', gulp.series('styles:compile'));
+  gulp.watch('source/images/**/*', gulp.series('copy:images'));
   gulp.watch('source/js/**/*.js', gulp.series('js'));
 });
 

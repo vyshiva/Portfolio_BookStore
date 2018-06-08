@@ -1,0 +1,23 @@
+header.header
+  .header__top
+    .container
+      include nav-top
+  .header__bottom
+    .container
+      .logo.header__bottom-item: img.logo__picture(src="images/logo.png" alt="logo")
+      .search.header__bottom-item
+        form.search__form
+          input.search__field(type="text")
+          button.search__btn
+            i.fa.fa-search(aria-hidden="true")
+            span.search__btn-text Search
+      .cart.header__bottom-item
+        .cart__item
+          a.cart__link(href="#") Your cart 
+            span.cart__item-col (2 items)
+          .cart__bottom
+            .cart__score $125.0
+            button.cart__button Checkout
+        .cart__wish-list 
+          .cart__wish-list__text Wish list
+            .cart__wish-list__num 20
